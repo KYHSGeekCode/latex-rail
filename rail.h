@@ -59,6 +59,8 @@ typedef union {
 	RULETYPE *rule;	/* rule */
 } YYSTYPE;
 
+#define YYSTYPE_IS_DECLARED
+
 extern unsigned line;
 extern int copy;
 
@@ -93,3 +95,4 @@ extern void error();
 extern int yylex (void);
 extern void yyerror(char *s);
 extern int setopt(char c, char* s);
+extern int yyparse (void);

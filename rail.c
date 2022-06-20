@@ -27,6 +27,7 @@ static char SccsId[]="@(#)rail 21-May-2017";
 #include "rail.h"
 #include "gram.h"
 
+
 static char *myname;	/* program name */
 
 static char *file;	/* input file */
